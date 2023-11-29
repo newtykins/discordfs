@@ -1,0 +1,9 @@
+[package]
+authors.workspace = true
+edition.workspace = true
+name = "web"
+publish.workspace = true
+version.workspace = true
+
+[dependencies]
+yew = { version = "0.21.0", features = ["csr"] }

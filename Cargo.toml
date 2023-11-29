@@ -1,0 +1,13 @@
+[workspace]
+default-members = ["bot"]
+members = [
+	"bot",
+	"web"
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["newtykins"]
+edition = "2021"
+publish = false
+version = "0.1.0"
